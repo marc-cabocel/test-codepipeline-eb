@@ -7,8 +7,4 @@ RUN apt-get update && apt-get install -y \
       vim \
       curl 
 
-# Bundle app source
-COPY static-html-directory /usr/share/nginx/html
-COPY mysite.template /etc/nginx/conf.d
-
 EXPOSE 8080
