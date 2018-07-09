@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y \
       curl \
       jq 
 
-EXPOSE 8080
+EXPOSE 80
